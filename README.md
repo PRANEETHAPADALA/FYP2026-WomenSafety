@@ -1,7 +1,4 @@
-# A Unified Risk Scoring Framework for Detecting
-Violence against Women through the Integration of
-Gender Composition, Behavioral, and Emotional
-Signals
+# A Unified Risk Scoring Framework for Detecting Violence against Women through the Integration of Gender Composition, Behavioral, and Emotional Signals
 
 **A Unified Risk Scoring Framework for Detecting
 Violence against Women through the Integration of
