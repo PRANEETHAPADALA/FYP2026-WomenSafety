@@ -245,8 +245,10 @@ If you use this in your research, please cite:
 
 ```bibtex
 @misc{carew2026,
-  title   = {CARE-W: Context-Aware Risk Evaluation for Women's Safety
-             via Tri- Fusion Video Analysis},
+  title   = {A Unified Risk Scoring Framework for Detecting
+Violence against Women through the Integration of
+Gender Composition, Behavioral, and Emotional
+Signals},
   author  = {Ganesh Naik, Dr. Anusha Jayasimhan, Vijaya Lakshmi A, Hishitha K, Padala Praneetha},
   year    = {2026},
   note    = {Final Year Project 2026, SSN College of Engineering}
