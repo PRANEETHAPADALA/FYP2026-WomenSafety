@@ -29,6 +29,8 @@ The pipeline looks for these files at startup:
 
 ---
 
+Download final_violence_model.zip from this link  -  https://drive.google.com/file/d/1tnrUjs5TLbIJHBIl3bHOk6uaCaBXlk5e/view?usp=sharing
+
 ## Expected folder layout after setup
 
 ```
