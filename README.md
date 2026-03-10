@@ -1,6 +1,6 @@
 # CARE-W: Context-Aware Risk Evaluation for Women's Safety
 
-**CARE-W** is a real-time, multi-modal video analysis pipeline for detecting threats against women in surveillance footage. It fuses three independent AI modules — gender & proximity risk, violence detection, and emotion distress analysis — into a single final threat score using a learned attention-based fusion model.
+**CARE-W** is a real-time,  Tri-Stream Fusion video analysis pipeline for detecting threats against women in surveillance footage. It fuses three independent AI modules — gender & proximity risk, violence detection, and emotion distress analysis — into a single final threat score using a learned attention-based fusion model.
 
 > Works in **Google Colab** and from a **local terminal** with no code changes.
 
@@ -79,8 +79,7 @@ CARE-W/
 ### 1 — Clone the repo
 
 ```bash
-git clone https://github.com/<your-username>/CARE-W.git
-cd CARE-W
+git clone https://github.com/PRANEETHAPADALA/FYP2026-WomenSafety
 ```
 
 ### 2 — Add model weights
@@ -103,7 +102,7 @@ pip install -r requirements.txt
 
 ### Option A — Google Colab
 
-1. Upload the entire `CARE-W/` folder to your Google Drive (or clone it directly in Colab).
+1. Upload the entire folder to your Google Drive (or clone it directly in Colab).
 2. Open a new Colab notebook and run:
 
 ```python
@@ -204,7 +203,6 @@ Three annotated output videos are saved (one per module):
 
 - A 16-frame sliding window (stride = 5) is scored by the fine-tuned **VideoMAE** model (Fight / NonFight).
 - Simultaneously, 8 sampled frames are scored against 12 action text prompts by **X-CLIP** (zero-shot).
-- Both scores are fused: `risk = 1 − (1 − mae_prob) × (1 − action_risk)`.
 - The module score `S_action` is the mean of the top-10% highest-risk windows.
 - The decision threshold adapts dynamically to the running average noise level.
 
@@ -245,10 +243,10 @@ If you use CARE-W in your research, please cite:
 ```bibtex
 @misc{carew2026,
   title   = {CARE-W: Context-Aware Risk Evaluation for Women's Safety
-             via Multi-Modal Video Analysis},
-  author  = {Praneetha and co-authors},
+             via Tri- Fusion Video Analysis},
+  author  = {Dr. Anusha Jayasimhan, Hishitha K, Padala Praneetha},
   year    = {2026},
-  note    = {Final Year Project, SSN College of Engineering}
+  note    = {Final Year Project 2026, SSN College of Engineering}
 }
 ```
 
