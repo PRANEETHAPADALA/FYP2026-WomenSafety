@@ -7,7 +7,7 @@ The pipeline looks for these files at startup:
 | File | Size (approx.) | Description |
 |------|---------------|-------------|
 | `best_mobilenet_gender_model.pth` | ~14 MB | Fine-tuned MobileNetV2 — gender classification |
-| `emotion_model.h5` | ~2 MB | CNN trained on FER-2013 — 7-class facial emotion |
+| `emotion_model.h5` | ~20 MB | CNN trained on FER-2013 — 7-class facial emotion |
 | `final_violence_model.zip` | ~340 MB | Fine-tuned VideoMAE — Fight / NonFight classifier |
 | `attention_fusion_model.pth` | <1 MB | Learned attention weights for final score fusion |
 
