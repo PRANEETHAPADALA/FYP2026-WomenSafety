@@ -34,7 +34,7 @@ Download final_violence_model.zip from this link  -  https://drive.google.com/fi
 ## Expected folder layout after setup
 
 ```
-CARE-W/
+FYP2026-WomenSafety/
 ├── pipeline.py
 ├── requirements.txt
 ├── README.md
