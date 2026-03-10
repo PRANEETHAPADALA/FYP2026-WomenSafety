@@ -1,0 +1,45 @@
+# ── Model weights (large binaries — add manually to models/) ─────────────────
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.zip
+*.safetensors
+*.caffemodel
+*.prototxt
+*.bin
+
+# ── Auto-downloaded face detector (regenerated on first run) ─────────────────
+models/deploy.prototxt
+models/res10_300x300_ssd_iter_140000.caffemodel
+models/custom_violence_model/
+
+# ── Video files ──────────────────────────────────────────────────────────────
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# ── Pipeline outputs ─────────────────────────────────────────────────────────
+outputs/
+
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# ── Environments ─────────────────────────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
