@@ -1,6 +1,12 @@
-# CARE-W: Context-Aware Risk Evaluation for Women's Safety
+# A Unified Risk Scoring Framework for Detecting
+Violence against Women through the Integration of
+Gender Composition, Behavioral, and Emotional
+Signals
 
-**CARE-W** is a real-time,  Tri-Stream Fusion video analysis pipeline for detecting threats against women in surveillance footage. It fuses three independent AI modules — gender & proximity risk, violence detection, and emotion distress analysis — into a single final threat score using a learned attention-based fusion model.
+**A Unified Risk Scoring Framework for Detecting
+Violence against Women through the Integration of
+Gender Composition, Behavioral, and Emotional
+Signals** is a real-time,  Tri-Stream Fusion video analysis pipeline for detecting threats against women in surveillance footage. It fuses three independent AI modules — gender & proximity risk, violence detection, and emotion distress analysis — into a single final threat score using a learned attention-based fusion model.
 
 > Works in **Google Colab** and from a **local terminal** with no code changes.
 
@@ -238,13 +244,13 @@ A small learned module (`Linear(3→3)` + softmax) assigns dynamic weights to `[
 
 ## Citation
 
-If you use CARE-W in your research, please cite:
+If you use this in your research, please cite:
 
 ```bibtex
 @misc{carew2026,
   title   = {CARE-W: Context-Aware Risk Evaluation for Women's Safety
              via Tri- Fusion Video Analysis},
-  author  = {Dr. Anusha Jayasimhan, Hishitha K, Padala Praneetha},
+  author  = {Ganesh Naik, Dr. Anusha Jayasimhan, Vijaya Lakshmi A, Hishitha K, Padala Praneetha},
   year    = {2026},
   note    = {Final Year Project 2026, SSN College of Engineering}
 }
