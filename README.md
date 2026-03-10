@@ -63,7 +63,7 @@ Input Video
 ## Repository Layout
 
 ```
-CARE-W/
+FYP2026-WomenSafety/
 ├── pipeline.py          ← full pipeline (runs in Colab and terminal)
 ├── requirements.txt
 ├── README.md
